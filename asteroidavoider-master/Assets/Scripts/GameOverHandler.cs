@@ -29,7 +29,7 @@ public class GameOverHandler : MonoBehaviour
 
     public void ContinueButton()
     {
-        AdManager.Instance.ShowAd(this);
+        InterstitalAdManager.Instance.ShowInterstitialAd();
 
         continueButton.interactable = false;
     }
